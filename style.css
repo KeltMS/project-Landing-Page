@@ -1,5 +1,16 @@
-body{
 
+
+body{
+    padding-left: 256px;
+    padding-right: 256px;
+    margin: 0;
+    background-color: black;
+}
+p{
+    font-family: 'Roboto';
+}
+a{
+    font-family: 'Roboto';
 }
 .header{
     display: flex;
@@ -60,7 +71,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items:    font-family: 'Roboto'; start;
     width: 400px;
 
     
@@ -83,23 +94,127 @@ button{
     padding-top: 4px;
     padding-bottom: 4px;
     border-radius: 8px;
+    border-color: #3882f6;
 }
 .second-container{
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom:16 64px;
+    padding-left: 256px;
+    padding-right: 256px;
+
+}
+.second-container-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 .card-container{
     display: flex;
-    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    display: flex;
+
+    padding: 16px;
+}
+.card{
+    padding: 16px;
+    margin: 8px;
+    width: 130px;
+    height: 130px;
+    border:solid 4px #3882f6;
+    border-radius: 8px;
 }
 .card-subtext-container{
     display: flex;
-    padding: 64px;
+
 
 }
 .subtext{
     flex-wrap: wrap;
-    width: 200px;
+    width: 138px;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+}
+.third-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 256px;
+    padding-right: 256px;
+    background-color: #e5e7eb;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.quote{
+    align-self: center;
+    flex-wrap: wrap;
+    color: #1F2937;
+    font-size: 36px;
+    font: light italic;
+    margin: 0;
+
+}
+.quotee{
+    align-self: flex-end;
+    justify-self: flex-start;
+    font-weight: 800;
+}
+.fourth-container{
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 256px;
+    padding-right: 256px;
+}
+.small-banner{
+    background-color: #3882f6;
+    margin-top: 64px;
+
+    margin-bottom: 64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 1200px;
+    
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+}
+.left-side-small-banner{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    color: white;
+    padding-left: 64px;
+}
+.cardheader-left-side-small-banner{
+    justify-self: flex-end;
+    font-weight: 800;
+    margin: 0;
+}
+
+.cardheader-left-side-text{
+    justify-self: flex-start;
+    margin: 0;
+}
+.right-side-small-banner{
+    justify-self: flex-end;
+    padding-right: 64px;
+}
+.banner-button{
+    border-color: white;
+}
+.footer{
+    color: white;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 16px;
 }
