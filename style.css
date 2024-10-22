@@ -1,9 +1,8 @@
 
 
 body{
-    padding-left: 256px;
-    padding-right: 256px;
-    margin: 0;
+    max-width: 1500px;
+    margin: 0 auto;
     background-color: black;
 }
 p{
@@ -16,12 +15,19 @@ a{
     display: flex;
     align-items: center;
     margin: 0;
-    padding-left: 256px;
-    padding-right: 256px;
+    padding: 0 32px 0 32px ;
 
     background-color: #1F2937;
 
 
+}
+.internal{
+    
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 0 70px 0;
+    justify-content: space-between;
+    
 }
 
 .header-left{
@@ -46,9 +52,8 @@ a{
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    padding-left: 256px;
-    padding-right: 256px;
     padding-bottom: 64px;
+    padding: 0 32px 0 32px;
 
 }
 .heading{
@@ -71,11 +76,11 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:    font-family: 'Roboto'; start;
+    align-items:  start;  
+    font-family: 'Roboto';
     width: 400px;
-
-    
 }
+
 .right-side{
     background-color: #a8aaad;
     align-self: center;
@@ -101,9 +106,8 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom:16 64px;
-    padding-left: 256px;
-    padding-right: 256px;
+    padding: 0 32px 32px 32px ;
+
 
 }
 .second-container-title{
@@ -144,11 +148,8 @@ button{
 .third-container{
     display: flex;
     flex-direction: column;
-    padding-left: 384px;
-    padding-right: 384px;
     background-color: #e5e7eb;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 32px 108px 32px 108px ;
 }
 .quote{
     align-self: center;
@@ -170,8 +171,8 @@ button{
     display: flex;
     justify-content: center;
     align-items: stretch;
-    padding-left: 256px;
-    padding-right: 256px;
+    padding: 0 32px 0 32px ;
+
 }
 .small-banner{
     background-color: #3882f6;
