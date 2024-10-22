@@ -157,6 +157,7 @@ button{
     font-size: 36px;
     font: light italic;
     margin: 0;
+    max-width: 700px;
 
 }
 .quotee{
