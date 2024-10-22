@@ -144,8 +144,8 @@ button{
 .third-container{
     display: flex;
     flex-direction: column;
-    padding-left: 256px;
-    padding-right: 256px;
+    padding-left: 384px;
+    padding-right: 384px;
     background-color: #e5e7eb;
     padding-top: 64px;
     padding-bottom: 64px;
@@ -157,7 +157,6 @@ button{
     font-size: 36px;
     font: light italic;
     margin: 0;
-    max-width: 700px;
 
 }
 .quotee{
